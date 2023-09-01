@@ -13,22 +13,24 @@ body:
         ---
 
   - type: "textarea"
+    id: "detailed-description"
     attributes:
       label: "Detailed Description"
       description: "Provide a detailed description of the change or addition you are proposing"
       placeholder: "Describe the feature or change you are proposing"
-    id: "description"
+    validations:
+      required: true
 
   - type: "textarea"
+    id: "context"
     attributes:
       label: "Context"
       description: "Why is this change important to you? How would you use it? How can it benefit other users?"
-      placeholder: "Help us understand the context for this enhancement. What are you trying to accomplish? How has this affected you? What alternatives have you considered?"
-    id: "context"
+      placeholder: "Help us understand the context for this enhancement"
 
   - type: "textarea"
+    id: "possible-solution"
     attributes:
       label: "Possible Solution"
       description: "Not obligatory, but suggest an idea for implementing addition or change"
       placeholder: "How might we implement this feature or improvement?"
-    id: "solution"
