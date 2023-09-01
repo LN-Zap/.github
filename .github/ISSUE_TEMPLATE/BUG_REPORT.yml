@@ -16,8 +16,8 @@ body:
     id: "description"
     attributes:
       label: "Bug Description"
-      description: "Provide a detailed introduction to the issue itself, and why you consider it to be a bug"
-      placeholder: "Describe the bug in detail"
+      description: "Provide a detailed introduction to the issue itself, and why you consider it to be a bug."
+      placeholder: "Describe the bug in detail."
     validations:
       required: true
 
@@ -26,33 +26,33 @@ body:
     attributes:
       label: "Context"
       description: "How has this bug affected you? What were you trying to accomplish?"
-      placeholder: "Describe how this bug has affected you"
+      placeholder: "Describe how this bug has affected you."
 
   - type: "textarea"
     id: "expected-behavior"
     attributes:
       label: "Expected Behavior"
-      description: "Tell us what you expected to happen"
-      placeholder: "Describe what you expected to happen"
+      description: "Tell us what you expected to happen."
+      placeholder: "Describe what you expected to happen."
 
   - type: "textarea"
     id: "steps"
     attributes:
       label: "Steps to reproduce"
       description: "Which steps do we need to take to reproduce this error? Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant."
-      placeholder: "Describe the steps to reproduce the bug"
+      placeholder: "Describe the steps to reproduce the bug."
 
   - type: "textarea"
     id: "logs"
     attributes:
       label: "Relevant log output"
       description: "If applicable, provide relevant log output. No need for backticks here."
-      placeholder: "Provide any relevant log output here"
+      placeholder: "Provide any relevant log output here."
       render: "shell"
 
   - type: "textarea"
     id: "solution"
     attributes:
       label: "Possible Solution"
-      description: "Not obligatory, but suggest a fix or reason for the bug"
-      placeholder: "Suggest a possible solution or reason for the bug"
+      description: "If you have a possible solution to suggest, please describe it here."
+      placeholder: "Describe your possible solution here."

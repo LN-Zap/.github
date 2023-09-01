@@ -16,8 +16,8 @@ body:
     id: "detailed-description"
     attributes:
       label: "Detailed Description"
-      description: "Provide a detailed description of the change or addition you are proposing"
-      placeholder: "Describe the feature or change you are proposing"
+      description: "Provide a detailed description of the change or addition you are proposing."
+      placeholder: "Describe the feature or change you are proposing."
     validations:
       required: true
 
@@ -26,11 +26,11 @@ body:
     attributes:
       label: "Context"
       description: "Why is this change important to you? How would you use it? How can it benefit other users?"
-      placeholder: "Help us understand the context for this enhancement"
+      placeholder: "Help us understand the context for this enhancement."
 
   - type: "textarea"
     id: "possible-solution"
     attributes:
       label: "Possible Solution"
-      description: "Not obligatory, but suggest an idea for implementing addition or change"
+      description: "Not obligatory, but suggest an idea for implementing addition or change."
       placeholder: "How might we implement this feature or improvement?"
