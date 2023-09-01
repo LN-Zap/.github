@@ -1,8 +1,9 @@
-name: Bug report
-description: Create a report to help us improve
-labels: [type:bug]
+name: "Bug report"
+description: "Create a report to help us improve"
+labels:
+  - "type:bug"
 body:
-  - type: markdown
+  - type: "markdown"
     attributes:
       value: |
         Before opening a bug report, please check if a similar bug report already exists or has been closed before.
@@ -11,45 +12,45 @@ body:
 
         ---
 
-  - type: textarea
-    id: description
+  - type: "textarea"
     attributes:
-      label: Bug Description
-      description: Provide a detailed introduction to the issue itself, and why you consider it to be a bug
+      label: "Bug Description"
+      description: "Provide a detailed introduction to the issue itself, and why you consider it to be a bug"
+      placeholder: "Describe the bug in detail"
+    id: "description"
 
-  - type: textarea
-    id: context
+  - type: "textarea"
     attributes:
-      label: Context
-      description: How has this bug affected you? What were you trying to accomplish?
+      label: "Context"
+      description: "How has this bug affected you? What were you trying to accomplish?"
+      placeholder: "Describe how this bug has affected you"
+    id: "context"
 
-  - type: textarea
-    id: expected-behavior
+  - type: "textarea"
     attributes:
-      label: Expected Behavior
-      description: Tell us what you expected to happen
+      label: "Expected Behavior"
+      description: "Tell us what you expected to happen"
+      placeholder: "Describe what you expected to happen"
+    id: "expected-behavior"
 
-  - type: textarea
-    id: steps
+  - type: "textarea"
     attributes:
-      label: Steps to reproduce
-      description: Which steps do we need to take to reproduce this error? Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant.
-      placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+      label: "Steps to reproduce"
+      description: "Which steps do we need to take to reproduce this error? Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant."
+      placeholder: "Describe the steps to reproduce the bug"
+    id: "steps"
 
-  - type: textarea
-    id: logs
+  - type: "textarea"
     attributes:
-      label: Relevant log output
-      description: If applicable, provide relevant log output. No need for backticks here.
-      render: shell
+      label: "Relevant log output"
+      description: "If applicable, provide relevant log output. No need for backticks here."
+      placeholder: "Provide any relevant log output here"
+      render: "shell"
+    id: "logs"
 
-  - type: textarea
-    id: solution
+  - type: "textarea"
+    id: "solution"
     attributes:
-      label: Possible Solution
-      description: Not obligatory, but suggest a fix or reason for the bug
-      placeholder: How might we go about addressing this issue?
+      label: "Possible Solution"
+      description: "Not obligatory, but suggest a fix or reason for the bug"
+      placeholder: "Suggest a possible solution or reason for the bug"
