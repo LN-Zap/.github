@@ -1,0 +1,55 @@
+name: Bug report
+description: Create a report to help us improve
+labels: [type:bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a bug report, please check if a similar bug report already exists or has been closed before.
+        
+        ---
+        
+        Thank you for taking the time to file a bug report. To help us understand your issue better, please fill in the information below.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Provide a detailed introduction to the issue itself, and why you consider it to be a bug
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: How has this bug affected you? What were you trying to accomplish?
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Tell us what you expected to happen
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which steps do we need to take to reproduce this error? Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: If applicable, provide relevant log output. No need for backticks here.
+      render: shell
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Possible Solution
+      description: Not obligatory, but suggest a fix or reason for the bug
+      placeholder: How might we go about addressing this issue?

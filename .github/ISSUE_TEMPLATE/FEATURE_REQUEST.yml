@@ -1,17 +1,22 @@
 name: Feature request
 description: Suggest an idea for this project
+labels: [type:enhancement]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to submit this feature request!
+        Before opening a feature request, please check if a similar request already exists or has been closed before.
+        
+        ---
+        
+        Thanks for suggesting an idea to make Strike better! Please fill in the information below to submit your feature request.
 
   - type: textarea
     id: description
     attributes:
       label: Detailed Description
       description: Provide a detailed description of the change or addition you are proposing
-      placeholder: Tell us what you see!
+      placeholder: Tell us what should happen
 
   - type: textarea
     id: context
@@ -21,8 +26,8 @@ body:
       placeholder: Help us understand the context for this enhancement. What are you trying to accomplish? How has this affected you? What alternatives have you considered?
 
   - type: textarea
-    id: implementation
+    id: solution
     attributes:
-      label: Possible Implementation
+      label: Possible Solution
       description: Not obligatory, but suggest an idea for implementing addition or change
       placeholder: How might we implement this feature or improvement?
