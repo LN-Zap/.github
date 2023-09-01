@@ -7,9 +7,9 @@ body:
       value: |
         Before opening a feature request, please check if a similar request already exists or has been closed before.
         
-        ---
-        
         Thanks for suggesting an idea to make Strike better! Please fill in the information below to submit your feature request.
+
+        ---
 
   - type: textarea
     id: description

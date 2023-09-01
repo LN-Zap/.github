@@ -7,9 +7,9 @@ body:
       value: |
         Before opening a bug report, please check if a similar bug report already exists or has been closed before.
         
-        ---
-        
         Thank you for taking the time to file a bug report. To help us understand your issue better, please fill in the information below.
+
+        ---
 
   - type: textarea
     id: description
