@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an idea for this project
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit this feature request!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Description
+      description: Provide a detailed description of the change or addition you are proposing
+      placeholder: Tell us what you see!
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why is this change important to you? How would you use it? How can it benefit other users?
+      placeholder: Help us understand the context for this enhancement. What are you trying to accomplish? How has this affected you? What alternatives have you considered?
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Possible Implementation
+      description: Not obligatory, but suggest an idea for implementing addition or change
+      placeholder: How might we implement this feature or improvement?
